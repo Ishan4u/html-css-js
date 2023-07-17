@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <========= Header area =========> */
+.header{
+    background-color: #009688;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*  center vertically */
+    padding: 0px 45px;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    display: block; /* hover transform rotate support */
+    transition: all 0.3s ease-out; /* hover transition */
+}
+
+.nav a:hover{
+    color: #B2DFDB;
+    transform: rotate(6deg);
+}
+/* <========= Ends Header area =========> */
+
+
+/* <========= Banner area =========> */
+.banner{
+    background-color: #B2DFDB;
+    padding: 60px 45px;
+    display: flex; /* for center banner area horizonally */
+    justify-content: center; /* for center banner area horizonally */
+    
+    
+}
+
+.banner-inner{
+    max-width: 760px; /* Ensure banner's inner paragraph is 3 lines, easy to read */
+    /* max-width = super large desktop monitor we're not allowed to be larger than 760 pixels */
+    
+}
+
+.banner h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0; /* Avoid excessive vertical spacing between it and the text below. */
+    
+    
+}
+
+.banner p{
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+
+.banner a{
+    background-color: #009688;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block; /* line break- vertical gap between the paragraph */
+    margin-top: 15px;
+}
+/* <========= End Banner area =========> */
+
+
+/* <=========  features area =========> */
+.features{
+    background-color: #E0F2F1;
+    padding: 60px 45px;
+}
+
+.features-inner{
+    max-width: 1200px;
+    margin: 0 auto; /* horizonly center */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 45px; /* column gap */
+    grid-row-gap: 45px; /* row gap */
+}
+
+.features-item h3{
+    color: #009688;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.features-item p{
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+
+}
+/* <=========  Ends features area =========> */
+
+/* <========= Footer area =========> */
+.footer p{
+    text-align: center;
+    padding: 20px 0; /* center */
+    font-size: .9rem;
+    color: #004d40;
+}
+/* <========= Ends Footer area =========> */
