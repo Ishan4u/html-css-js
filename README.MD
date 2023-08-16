@@ -60,10 +60,10 @@ element {
   float: none | left | right | inherit;
 }
 ```
-> none: The element does not float. This is the default value.
-> left: The element floats to the left of its container.
-> right: The element floats to the right of its container.
-> inherit: The element inherits the float value from its parent element.
+> none: The element does not float. This is the default value.  
+> left: The element floats to the left of its container.  
+> right: The element floats to the right of its container.  
+> inherit: The element inherits the float value from its parent element.  
 
 - Here's an example of using the float property:
 ```css
@@ -73,6 +73,6 @@ img {
 ```
 > - In this example, the image will float to the right of its container, and any text in the container will wrap around the image.
 
-- *Modern Alternatives: Flexbox and Grid*
+- **Modern Alternatives: Flexbox and Grid**
 
 
